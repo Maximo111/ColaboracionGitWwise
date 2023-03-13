@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{32D59675-BA46-4D06-A4B7-90C2BC88B9B1}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Maximo" ID="{32D59675-BA46-4D06-A4B7-90C2BC88B9B1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Tele" ID="{28EC9DEB-8B35-484D-8FBE-B8500C33F02F}" ShortID="199441425">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B095AA85-54E9-45B3-A032-C08F48F68334}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5A514F9B-D2D9-43D9-BD5A-BF0D766AFCEB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Tele" ID="{403D9DBA-8F0D-41D9-A0F4-3E1C1779E1E8}">
+							<Language>SFX</Language>
+							<AudioFile>Tele.WAV</AudioFile>
+							<MediaIDList>
+								<MediaID ID="546761917"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Tele" ID="{403D9DBA-8F0D-41D9-A0F4-3E1C1779E1E8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
